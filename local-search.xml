@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>WEBAPI笔记</title>
+    <link href="/2022/01/22/WEBAPI%E7%AC%94%E8%AE%B0/"/>
+    <url>/2022/01/22/WEBAPI%E7%AC%94%E8%AE%B0/</url>
+    
+    <content type="html"><![CDATA[<h2 id="一、DOM的使用"><a href="#一、DOM的使用" class="headerlink" title="一、DOM的使用"></a>一、DOM的使用</h2><h3 id="1、页面元素的获取"><a href="#1、页面元素的获取" class="headerlink" title="1、页面元素的获取"></a>1、页面元素的获取</h3><h4 id="（1）通过id获取页面元素-getElementByld"><a href="#（1）通过id获取页面元素-getElementByld" class="headerlink" title="（1）通过id获取页面元素 getElementByld"></a>（1）通过id获取页面元素 getElementByld</h4><span id="more"></span><p><img src="/2022/01/22/WEBAPI%E7%AC%94%E8%AE%B0/1.png" alt="1"></p><h4 id="（2-通过标签名获取页面元素-getElementsByTagName"><a href="#（2-通过标签名获取页面元素-getElementsByTagName" class="headerlink" title="（2)通过标签名获取页面元素 getElementsByTagName"></a>（2)通过标签名获取页面元素 getElementsByTagName</h4><p><img src="/2022/01/22/WEBAPI%E7%AC%94%E8%AE%B0/2.png" alt="2"></p><p><img src="/2022/01/22/WEBAPI%E7%AC%94%E8%AE%B0/3.png" alt="3"></p><p>​                     一般情况下给父元素指定id，代替父元素伪数组的使用（父元素必须是单个对象）</p><h4 id="3-H5新增获取元素方式"><a href="#3-H5新增获取元素方式" class="headerlink" title="(3)H5新增获取元素方式"></a>(3)H5新增获取元素方式</h4><h5 id="通过类名class-document-geElementsByClassName（”类名”）"><a href="#通过类名class-document-geElementsByClassName（”类名”）" class="headerlink" title="通过类名class   document,geElementsByClassName（”类名”）"></a>通过类名class   document,geElementsByClassName（”类名”）</h5><h5 id="快速选择器querySelector返回指定选择器的第一个元素对象"><a href="#快速选择器querySelector返回指定选择器的第一个元素对象" class="headerlink" title="快速选择器querySelector返回指定选择器的第一个元素对象"></a>快速选择器querySelector返回指定选择器的第一个元素对象</h5><h5 id="querySelectorAll返回指定选择器的所有元素对象"><a href="#querySelectorAll返回指定选择器的所有元素对象" class="headerlink" title="querySelectorAll返回指定选择器的所有元素对象"></a>querySelectorAll返回指定选择器的所有元素对象</h5><p>​                          <img src="/2022/01/22/WEBAPI%E7%AC%94%E8%AE%B0/4.png" alt="4"></p><h4 id="（4）获取body和html元素"><a href="#（4）获取body和html元素" class="headerlink" title="（4）获取body和html元素"></a>（4）获取body和html元素</h4><p><img src="/2022/01/22/WEBAPI%E7%AC%94%E8%AE%B0/5.png" alt="5"></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="/2022/01/22/hello-world/"/>
+    <url>/2022/01/22/hello-world/</url>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><span id="more"></span><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><div class="code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  
+</search>
