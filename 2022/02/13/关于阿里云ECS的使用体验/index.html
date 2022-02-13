@@ -16,19 +16,38 @@
   <meta name="author" content="田博松">
   <meta name="keywords" content="">
   
-    <meta property="og:type" content="website">
-<meta property="og:title" content="归档">
-<meta property="og:url" content="http://example.com/archives/2022/index.html">
+    <meta name="description" content="​        本人目前就读于燕山大学，为电子信息类大一年级学生。于寒假网络冲浪时，随手点开了某位B站up主的一个编程导航网站，其中在该网站一个不显眼的福利专区偶然发现阿里云的对高校学生在家实践有着巨大帮助作用的“飞天加速计划”。因为本人一直对于个人网站的制作和部署有着巨大的兴趣，所以这无疑对我产生了巨大的吸引力。我抱着惊喜而又好奇的心态试着申请了时长两周的服务器使用时间，这第一次体验到了公网i">
+<meta property="og:type" content="article">
+<meta property="og:title" content="关于阿里云ECS的使用体验">
+<meta property="og:url" content="http://example.com/2022/02/13/%E5%85%B3%E4%BA%8E%E9%98%BF%E9%87%8C%E4%BA%91ECS%E7%9A%84%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C/index.html">
 <meta property="og:site_name" content="BS^blog">
+<meta property="og:description" content="​        本人目前就读于燕山大学，为电子信息类大一年级学生。于寒假网络冲浪时，随手点开了某位B站up主的一个编程导航网站，其中在该网站一个不显眼的福利专区偶然发现阿里云的对高校学生在家实践有着巨大帮助作用的“飞天加速计划”。因为本人一直对于个人网站的制作和部署有着巨大的兴趣，所以这无疑对我产生了巨大的吸引力。我抱着惊喜而又好奇的心态试着申请了时长两周的服务器使用时间，这第一次体验到了公网i">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2022-02-13T13:26:52.000Z">
+<meta property="article:modified_time" content="2022-02-13T13:30:08.180Z">
 <meta property="article:author" content="田博松">
 <meta name="twitter:card" content="summary_large_image">
   
   
-  <title>归档 | BS^blog</title>
+  <title>关于阿里云ECS的使用体验 | BS^blog</title>
 
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4/dist/css/bootstrap.min.css" />
 
+
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@4/github-markdown.min.css" />
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hint.css@2/hint.min.css" />
+
+  
+    
+    
+      
+      <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@10/styles/github-gist.min.css" />
+    
+  
+
+  
+    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3/dist/jquery.fancybox.min.css" />
+  
 
 
 <!-- 主题依赖的图标库，不要自行修改 -->
@@ -65,7 +84,7 @@
 	<!-- 页面点击小红心 -->
 	<script type="text/javascript" src="/js/love.js"></script>
 <body>
-  <header style="height: 60vh;">
+  <header style="height: 70vh;">
     <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand" href="/">
@@ -166,9 +185,43 @@
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
           <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="归档">
+            <span class="h2" id="subtitle" title="关于阿里云ECS的使用体验">
               
             </span>
+
+            
+              <div class="mt-3">
+  
+  
+    <span class="post-meta">
+      <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+      <time datetime="2022-02-13 21:26" pubdate>
+        2022年2月13日 晚上
+      </time>
+    </span>
+  
+</div>
+
+<div class="mt-1">
+  
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-chart"></i>
+      1.2k 字
+    </span>
+  
+
+  
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-clock-fill"></i>
+      
+      
+      10 分钟
+    </span>
+  
+
+  
+  
+</div>
 
             
           </div>
@@ -181,58 +234,87 @@
 
   <main>
     
-      <div class="container nopadding-x-md">
-        <div class="py-5" id="board"
-          >
-          
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-md-10 m-auto">
-                
-
-<div class="list-group">
-  <p class="h4">共计 4 篇文章</p>
-  <hr>
-  
-  
-    
       
-      <p class="h5">2022</p>
-    
-    <a href="/2022/02/13/%E5%85%B3%E4%BA%8E%E9%98%BF%E9%87%8C%E4%BA%91ECS%E7%9A%84%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">关于阿里云ECS的使用体验</span>
-      <time style="float: right;">02-13</time>
-    </a>
-  
-    
-    <a href="/2022/02/03/%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B9%A6%E7%AD%BE/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">浏览器书签</span>
-      <time style="float: right;">02-03</time>
-    </a>
-  
-    
-    <a href="/2022/01/22/WEBAPI%E7%AC%94%E8%AE%B0/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">WEBAPI笔记</span>
-      <time style="float: right;">01-22</time>
-    </a>
-  
-    
-    <a href="/2022/01/22/hello-world/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">Hello World</span>
-      <time style="float: right;">01-22</time>
-    </a>
-  
-</div>
 
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="d-none d-lg-block col-lg-2"></div>
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div class="py-5" id="board">
+          <article class="post-content mx-auto">
+            <!-- SEO header -->
+            <h1 style="display: none">关于阿里云ECS的使用体验</h1>
+            
+              <p class="note note-info">
+                
+                  本文最后更新于：2022年2月13日 晚上
+                
+              </p>
+            
+            <div class="markdown-body">
+              <p>​        本人目前就读于燕山大学，为电子信息类大一年级学生。于寒假网络冲浪时，随手点开了某位B站up主的一个编程导航网站，其中在该网站一个不显眼的福利专区偶然发现阿里云的对高校学生在家实践有着巨大帮助作用的“飞天加速计划”。因为本人一直对于个人网站的制作和部署有着巨大的兴趣，所以这无疑对我产生了巨大的吸引力。我抱着惊喜而又好奇的心态试着申请了时长两周的服务器使用时间，这第一次体验到了公网ip的魅力是如此强大。</p>
+<p>​        而后在云服务管理平台下面有几篇阿里云出品的高质量教程，我也试着去做了做。其中大部分第一步都是将远程服务器通过与本地终端管理相连接实现对远程终端的控制，这就要求我对Linux命令行的熟练掌握与运用，但幸运的的是，我在上学期时已经在我们学校的网络信息协会通过虚拟机已经习得了这一方面的知识，而后我苦于本地终端管理工具功能实在少的可怜，所以我又通过Xshell实现了与远程服务器的连接，但命令行的方法终究缺少图形化界面，我又想到以前部长用过宝塔，抱着试一试的心态在CSDN上找来教程去安装了宝塔，但通过教程打开8888的端口并不能访问，而后我又通过某知名搜索引擎了解到由于阿里云的安全机制8888端口并不默认开放，接着打开此端口，成功访问。在通过一顿操作后，宝塔成功配置了各种功能，有了图形化界面的操作顿时让我感到神清气爽。</p>
+<p>​        在此突然想到以前自己用hexo在github上部署的个人博客是不是也能在此服务器上部署。然后我在本人的github账户上把自己的博客仓库下载了下来，然后解压，通过宝塔上传到了远程服务器，接下来我又通过宝塔人性化的操作将博客部署在了2674端口上，博客成功访问，但在其中我的三篇博客中，只有一篇能够打开，另外两篇则表示资源不存在，这不禁让我心生疑惑，我便通过宝塔打开了网页的源码，经过我的一番检查之后发现，原来是文件路径包含了中文而导致在上传时产生了乱码的问题，可能是由于宝塔的解压机制或者储存机制而导致了编码问题。经过我的一番修改，所有博客都可以成功访问，问题解决。</p>
+<p>​        而后我又想到以前在协会里，部长交给了我们在虚拟机里的Linux系统里部署了NextCloud云盘，但是苦于没有公网ip和服务器，云盘只有在虚拟机开机时在本地访问，当然这对于云盘来说是远远不够的，于是我通过宝塔＋NextCloud的方式在服务器上又成功部署了自己的云盘，虽然功能不太完善，但完全可以满足自己的需求。</p>
+<p>​        在这个过程中虽然免不了那些刺眼的红色Errors，但是通过自己的不懈努力最后一行的Complete也着实让人欢喜。“彼方尚有荣光在”，希望自己可以一直在这条道路上坚持下去。好了，本人关于阿里云ECS的使用体验就到这里。以下是本人在服务器上部署的个人博客和云盘链接。</p>
+<p>博客：<a target="_blank" rel="noopener" href="http://8.130.19.148:2674/">http://8.130.19.148:2674</a></p>
+<p>云盘：<a target="_blank" rel="noopener" href="http://8.130.19.148/">http://8.130.19.148</a></p>
 
-
-
-
-              </div>
             </div>
-          </div>
+            <hr>
+            <div>
+              <div class="post-metas mb-3">
+                
+                
+              </div>
+              
+                <p class="note note-warning">
+                  
+                    本博客所有文章除特别声明外，均采用 <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" rel="nofollow noopener noopener">CC BY-SA 4.0 协议</a> ，转载请注明出处！
+                  
+                </p>
+              
+              
+                <div class="post-prevnext">
+                  <article class="post-prev col-6">
+                    
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/2022/02/03/%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B9%A6%E7%AD%BE/">
+                        <span class="hidden-mobile">浏览器书签</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+          </article>
         </div>
       </div>
+    </div>
+    
+      <div class="d-none d-lg-block col-lg-2 toc-container" id="toc-ctn">
+        <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+      </div>
+    
+  </div>
+</div>
+
+<!-- Custom -->
+
+
     
 
     
@@ -366,6 +448,19 @@
   
 
 
+
+  
+    <script  src="https://cdn.jsdelivr.net/npm/tocbot@4/dist/tocbot.min.js" ></script>
+  
+  
+    <script  src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3/dist/jquery.fancybox.min.js" ></script>
+  
+  
+    <script  src="https://cdn.jsdelivr.net/npm/anchor-js@4/anchor.min.js" ></script>
+  
+  
+    <script defer src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js" ></script>
+  
 
 
 
